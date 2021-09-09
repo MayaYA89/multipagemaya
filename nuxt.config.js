@@ -75,6 +75,6 @@ export default {
   },
 
   generate: {
-    dir: 'dist
+    fallback: "404.html" // Netlify reads a 404.html, Nuxt will load as an SPA
   }
 };
